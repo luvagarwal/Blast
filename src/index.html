@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>Blast</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="bundle.js"></script>
+  <div id="menu">
+    <h1>Blast</h1>
+    <div id="score">
+      <h3>Your Score:</h3>
+      <p>12</p>
+    </div>
+    <section class="welcome">
+      <h2>Instructions</h2>
+      <p>Destroy the objects before they vanish by activating laid mines. Gane more points by early destruction.</p>
+      <a class="button" id="start-button" onclick="startGame()">Start Game</a>
+    </section>
+  </div>
+  <script type="text/javascript">
+    function startGame() {
+      document.getElementById('start-button').value = "start";
+    }
+  </script>
+</body>
+</html>
